@@ -1,0 +1,17 @@
+@import './config';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $ff !important;
+  user-select: none;
+}
+
+.button {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}

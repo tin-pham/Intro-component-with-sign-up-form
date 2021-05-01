@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.button {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body {
+  background: url(../images/bg-intro-mobile.png) center, rgba(255, 122, 122, 0.9);
+}
+
+.section {
+  margin: 0 auto;
+  padding: 4rem 2.5rem;
+  max-width: 600px;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.section h1 {
+  padding: 0 1rem;
+  margin: 0 auto 1rem;
+}
+
+@media (min-width: 1000px) {
+  .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 100%;
+    padding: 0 8rem;
+  }
+  .section__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    height: 100vh;
+    margin-right: 0.5rem;
+    padding: 0 4rem;
+  }
+  .section__text h1 {
+    padding: 0;
+    font-size: 3rem;
+  }
+}
+
+.sign-up {
+  width: 100%;
+  max-width: 500px !important;
+  margin: 0 auto;
+}
+
+.sign-up .button--free {
+  width: 100%;
+  background: #6055a5;
+  color: white;
+  margin: 4rem 0 1rem 0;
+  -webkit-box-shadow: 0 7px 0 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 7px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.sign-up .button--free p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.sign-up .button--free p span {
+  font-weight: 700;
+}
+
+.sign-up form {
+  padding: 1rem;
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.sign-up form::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  z-index: -1;
+}
+
+.sign-up form input {
+  margin: 0.5rem;
+  padding: 0.75rem;
+  font-size: 0.75em;
+  font-weight: 700;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #b9b6d3;
+  width: 95%;
+}
+
+.sign-up form .button--sign-up {
+  width: 100%;
+  background: #38cc8c;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
+  -webkit-box-shadow: inset 0 -5px 0 rgba(37, 141, 96, 0.5);
+          box-shadow: inset 0 -5px 0 rgba(37, 141, 96, 0.5);
+}
+
+.sign-up form .invalid {
+  text-align: right;
+}
+
+.sign-up form .invalid input {
+  color: #ff7a7a;
+  outline: 2px solid #ff7a7a;
+  border: none;
+  position: relative;
+}
+
+.sign-up form .invalid input::-webkit-input-placeholder {
+  color: #ff7a7a;
+}
+
+.sign-up form .invalid input:-ms-input-placeholder {
+  color: #ff7a7a;
+}
+
+.sign-up form .invalid input::-ms-input-placeholder {
+  color: #ff7a7a;
+}
+
+.sign-up form .invalid input::placeholder {
+  color: #ff7a7a;
+}
+
+.sign-up form .invalid p {
+  color: #ff7a7a;
+}
+
+.sign-up form .invalid::after {
+  content: url(../images/icon-error.svg);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 10%;
+  z-index: 1;
+  -webkit-transform: translateY(-135%);
+          transform: translateY(-135%);
+}
+
+.sign-up form .message-submit {
+  color: black;
+  font-weight: 800;
+}
+
+.sign-up .sign-up__footer {
+  color: #b9b6d3;
+  font-size: 0.75rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sign-up .sign-up__footer span {
+  color: #ff7a7a;
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */
