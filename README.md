@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/responsive-sign-up-form-using-sass-and-javascript-GdKLdTOdz)
+- Live Site URL: [Link](https://nifty-morse-1e3d58.netlify.app/)
 
 ## My process
 
